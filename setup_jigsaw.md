@@ -16,7 +16,7 @@
 
     and that's it! 
     ___
-    running `java -version` should now return something similar to the below:
+    running `java -version` should now return something similar to the following:
     `java version "9-ea"`
 
     nice reference:
