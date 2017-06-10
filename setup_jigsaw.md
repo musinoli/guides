@@ -4,7 +4,8 @@
 
     `tar -xvf jigsaw-jdk-9*.tar --directory /Library/Java/JavaVirtualMachines/`
 
-    this will extract the contents of the tar archive into the appropriate location for JDKs on your machine
+    this will extract the contents of the tar archive into the appropriate location for JDKs on your machine.
+    Note: As a regular user you may have only reading and executing permissions for the installation directory '/Library/Java/JavaVirtualMachines'. If you come across an installation issue, you might need writing permissions in that directory, and you may want to run with sudo.
 
 2. ensure your bash profile file (_~/.bash_profile_) includes the following export of java home:
 
